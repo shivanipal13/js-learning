@@ -80,4 +80,19 @@
 //1 => true; 0 ==>false
 //"shivani" => true; " " ==>false
 
+//**************************Operations********************************* */
+// console.log("1" + 1)//11
+// console.log("1" + "1")//11
+// console.log("1" + 1+2)//112
+// console.log(1 +2+"1" + 1)//311
+// console.log(1+2*2)//5
+// console.log(1-3+3*3/2)//2.5
+// The operators in the expression have the following precedence:
 
+// Multiplication (*) and Division (/): These are evaluated first, from left to right.
+// Addition (+) and Subtraction (-): These are evaluated afterward, also from left to right.
+
+// console.log(true)//true
+// console.log(+true)//1
+// console.log(true+)//error
+// console.log(+"")//0
