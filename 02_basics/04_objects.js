@@ -54,3 +54,4 @@ console.log(obj4)//{ '1': '2', '2': '3', '3': '4', '4': '6' }
 //Object destructuring is a powerful feature in JavaScript that helps make code more concise and easier to work with
 
 //Basic Example of Object Destructuring
+//console.clear()
