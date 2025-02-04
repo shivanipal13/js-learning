@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello shivani </h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    console.log("shivani")
+    const start=document.querySelector('#start')
+    console.log(start);
+    const stop=document.querySelector('#stop')
+    console.log(stop);
+
+    const changeText=document.querySelector('h1').innerHTML="Hey shivani wellllllllljs world."
+
+    // let timeoutID;
+    //     start.addEventListener('click', function(){
+    //         console.log("startclicked")
+    //          timeoutID=setTimeout(changeText,2000)
+        
+    // })
+    let timeoutID;
+        start.addEventListener('click', function(){
+            console.log("startclicked")
+             timeoutID=setInterval(changeText,2000)
+        
+    })
+
+
+    stop.addEventListener('click',function(){
+        console.log("stopped")
+        clearTimeout(timeoutID);
+    })
+
+
+    
+
+    // const st=setTimeout(function(){
+
+    // },2000)
+    // setTimeout(function(){
+    //     console.log("settime")
+    // },3000)
+
+    
+//     const startfun=function onClickHandler() {
+//         setInterval(function(){
+//         console.log(`START ${Date}`)
+//     },3000)
+           
+//         }
+//         start.addEventListener('click',startfun)
+
+
+// const stopfun=function onClickHandler() {
+//         clearInterval(function(){
+//         console.log("stOP")
+//     },1000)
+           
+//         }
+
+// stop.addEventListener('click',stopfun)
+
+
+// const changeText=function(){
+//     document.querySelector('h1').innerHTML="welcome shivani"
+
+// }
+
+//setTimeout(changeText,2000)
+// start.addEventListener('click', function() {
+//             // Delay of 2 seconds (2000ms) before calling changeText function
+//             setTimeout(changeText, 2000);
+//         });
+
+
+
+</script>
+</html>
